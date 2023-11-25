@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HW3:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW3_war</output-path>
+    <root id="archive" name="HW3_war.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HW2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:4.0.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.0-alpha1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.10.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.23" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="HW2/web/Web" />
+      <element id="javaee-facet-resources" facet="HW2/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
